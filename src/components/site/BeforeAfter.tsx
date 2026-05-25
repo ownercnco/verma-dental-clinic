@@ -47,7 +47,7 @@ export function BeforeAfter() {
           >
             <img
               src={after}
-              alt="Smile after Lumina Dental treatment"
+              alt="Smile after Laxmi Dental treatment"
               className="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
             />

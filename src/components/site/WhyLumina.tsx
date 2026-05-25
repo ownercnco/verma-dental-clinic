@@ -24,14 +24,14 @@ const reasons = [
   },
 ];
 
-export function WhyLumina() {
+export function WhyLaxmi() {
   return (
     <section className="py-24 md:py-32">
       <div className="container-page">
         <div className="max-w-3xl">
           <Reveal>
             <p className="text-xs uppercase tracking-[0.18em] text-primary font-medium">
-              Why Lumina
+              Why Laxmi
             </p>
           </Reveal>
           <Reveal delay={80}>
@@ -54,7 +54,7 @@ export function WhyLumina() {
             <Reveal key={r.title} delay={i * 80}>
               <div className="bg-card p-8 md:p-10 h-full">
                 <div className="grid h-12 w-12 place-items-center rounded-2xl bg-primary-soft text-primary">
-                  <r.icon className="h-6 w-6" />
+                  {/* <r.icon className="h-6 w-6" /> */}
                 </div>
                 <h3 className="mt-6 font-display text-xl md:text-2xl font-medium">
                   {r.title}

@@ -9,7 +9,7 @@ const stories = [
     img: p1,
     name: "Naomi A.",
     treatment: "Veneers · 2 visits",
-    quote: "I avoided dentists for 12 years. Lumina was the first place that didn't feel like a clinic — it felt like being looked after.",
+    quote: "I avoided dentists for 12 years. Laxmi was the first place that didn't feel like a clinic — it felt like being looked after.",
   },
   {
     img: p2,

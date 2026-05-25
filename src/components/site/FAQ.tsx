@@ -7,7 +7,7 @@ const faqs = [
   { q: "What if I have severe dental anxiety?", a: "You're not alone — roughly 1 in 3 of our patients tells us they were anxious. We offer pre-visit consultations with no instruments involved, calming sedation options, and a 'stop signal' you can use any time during treatment." },
   { q: "How long is recovery for common procedures?", a: "Cleanings and whitening: zero downtime. Fillings and crowns: usually same-day return to normal. Implants and surgical treatments: 3–7 days of mild soreness. We give you a precise timeline before you commit." },
   { q: "How transparent is your pricing?", a: "Every treatment plan comes with a written, itemized quote — no surprises. We accept most major insurance plans and offer 0% financing for plans over $1,000." },
-  { q: "Do you see emergencies?", a: "Yes. Same-day emergency slots are reserved every weekday, and we have an after-hours line for active patients. Call (800) 555-LUMI any time." },
+  { q: "Do you see emergencies?", a: "Yes. Same-day emergency slots are reserved every weekday, and we have an after-hours line for active patients. Call 07906702265 any time." },
   { q: "How often should I come in?", a: "Most patients do best with a cleaning and exam every six months. We may recommend a different cadence based on your individual risk profile." },
 ];
 

@@ -113,7 +113,7 @@ export function Treatments() {
               >
                 <div className="flex items-start justify-between">
                   <div className="grid h-12 w-12 place-items-center rounded-2xl bg-primary-soft text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                    <t.icon className="h-6 w-6" />
+                    {/* <t.icon className="h-6 w-6" /> */}
                   </div>
                   <span className="text-xs text-muted-foreground group-hover:text-primary transition-colors">
                     Learn more →
@@ -147,7 +147,7 @@ export function Treatments() {
               <X className="h-5 w-5" />
             </button>
             <div className="grid h-12 w-12 place-items-center rounded-2xl bg-primary-soft text-primary">
-              <active.icon className="h-6 w-6" />
+              {/* <active.icon className="h-6 w-6" /> */}
             </div>
             <h3 className="mt-5 font-display text-2xl md:text-3xl font-medium">
               {active.title}

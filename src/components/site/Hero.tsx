@@ -7,10 +7,10 @@ export function Hero() {
       <div className="container-page">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <div className="lg:col-span-6 max-w-xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-primary-soft text-primary px-3 py-1.5 text-xs font-medium tracking-wide">
+            {/* <div className="inline-flex items-center gap-2 rounded-full bg-primary-soft text-primary px-3 py-1.5 text-xs font-medium tracking-wide">
               <Sparkles className="h-3.5 w-3.5" />
               Welcoming new patients · 2026
-            </div>
+            </div> */}
             <h1 className="mt-6 font-display text-4xl sm:text-5xl lg:text-6xl font-medium leading-[1.05] tracking-tight text-balance">
               Exceptional dental care that feels{" "}
               <span className="italic text-primary">calm</span> and confident.
@@ -34,7 +34,7 @@ export function Hero() {
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-border bg-background/60 backdrop-blur px-6 py-3.5 text-sm font-medium hover:bg-surface transition"
               >
                 <Phone className="h-4 w-4 text-primary" />
-                Emergency · (800) 555-LUMI
+                Emergency · 07906702265
               </a>
             </div>
 
@@ -56,7 +56,7 @@ export function Hero() {
             <div className="relative aspect-[5/6] sm:aspect-[4/3] lg:aspect-[5/6] overflow-hidden rounded-3xl ring-soft shadow-card">
               <img
                 src={heroImg}
-                alt="Patient smiling in a bright, modern Lumina Dental clinic"
+                alt="Patient smiling in a bright, modern Laxmi Dental clinic"
                 width={1600}
                 height={1200}
                 className="h-full w-full object-cover"
@@ -65,7 +65,7 @@ export function Hero() {
             </div>
 
             {/* Floating trust card */}
-            <div className="absolute -bottom-6 -left-4 sm:left-6 bg-card rounded-2xl shadow-card ring-soft p-4 max-w-[260px] hidden sm:block">
+            {/* <div className="absolute -bottom-6 -left-4 sm:left-6 bg-card rounded-2xl shadow-card ring-soft p-4 max-w-[260px] hidden sm:block">
               <div className="flex items-center gap-3">
                 <div className="grid h-10 w-10 place-items-center rounded-full bg-primary-soft text-primary">
                   <ShieldCheck className="h-5 w-5" />
@@ -75,7 +75,7 @@ export function Hero() {
                   <p className="text-sm font-medium">Hospital-grade · ISO 13485</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="absolute -top-4 right-2 sm:-right-4 bg-card rounded-2xl shadow-card ring-soft p-4 max-w-[240px] hidden sm:block">
               <div className="flex items-center gap-3">

@@ -50,8 +50,8 @@ export function CTA() {
                     href="tel:+18005558626"
                     className="inline-flex items-center justify-center gap-2 rounded-full border border-background/25 text-background px-6 py-3.5 text-sm font-medium hover:bg-background/10 transition"
                   >
-                    <Phone className="h-4 w-4" />
-                    (800) 555-LUMI
+                    {/* <Phone className="h-4 w-4" /> */}
+                    07906702265
                   </a>
                 </div>
               </div>
@@ -66,17 +66,17 @@ export function CTA() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Phone className="h-5 w-5 text-background/70 mt-0.5" />
+                  {/* <Phone className="h-5 w-5 text-background/70 mt-0.5" /> */}
                   <div>
                     <p className="text-background/60 uppercase text-[10px] tracking-wider">24/7 Emergency</p>
-                    <p className="mt-1">(800) 555-LUMI</p>
+                    <p className="mt-1">07906702265</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Mail className="h-5 w-5 text-background/70 mt-0.5" />
                   <div>
                     <p className="text-background/60 uppercase text-[10px] tracking-wider">Email</p>
-                    <p className="mt-1">care@luminadental.co</p>
+                    <p className="mt-1">care@Laxmidental.co</p>
                   </div>
                 </div>
               </div>

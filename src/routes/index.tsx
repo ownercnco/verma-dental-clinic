@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { TrustBar } from "@/components/site/TrustBar";
-import { WhyLumina } from "@/components/site/WhyLumina";
+// import { WhyLaxmi } from "@/components/site/WhyLaxmi";
 import { Treatments } from "@/components/site/Treatments";
 import { Technology } from "@/components/site/Technology";
 import { Doctors } from "@/components/site/Doctors";
@@ -16,13 +16,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lumina Dental — Calm, Confident Dental Care in Portland" },
+      { title: "Laxmi Dental — Best Dental Clinic in Haldwani" },
       {
         name: "description",
         content:
           "Premium cosmetic and general dentistry in a serene, anxiety-free environment. Implants, veneers, Invisalign, and more — delivered with quiet precision.",
       },
-      { property: "og:title", content: "Lumina Dental — Calm, Confident Dental Care" },
+      { property: "og:title", content: "Laxmi Dental — Calm, Confident Dental Care" },
       {
         property: "og:description",
         content:
@@ -41,10 +41,10 @@ function Index() {
       <main>
         <Hero />
         <TrustBar />
-        <WhyLumina />
+        {/* <WhyLaxmi /> */}
         <Treatments />
         <Technology />
-        <Doctors />
+        {/* <Doctors /> */}
         <BeforeAfter />
         <Stories />
         <Experience />

@@ -35,7 +35,7 @@ export function Header() {
             L
           </span>
           <span className="font-display text-lg md:text-xl font-medium tracking-tight">
-            Lumina <span className="text-muted-foreground">Dental</span>
+            Laxmi <span className="text-muted-foreground">Dental Clinic</span>
           </span>
         </a>
 
@@ -56,7 +56,7 @@ export function Header() {
             href="tel:+18005558626"
             className="hidden md:inline-flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
           >
-            <Phone className="h-4 w-4" /> (800) 555-LUMI
+            <Phone className="h-4 w-4" /> 07906702265
           </a>
           <a
             href="#book"

@@ -10,7 +10,7 @@ export function Experience() {
           <div className="lg:col-span-5">
             <Reveal>
               <p className="text-xs uppercase tracking-[0.18em] text-primary font-medium">
-                The Lumina Experience
+                The Laxmi Experience
               </p>
             </Reveal>
             <Reveal delay={80}>
@@ -38,12 +38,12 @@ export function Experience() {
           <div className="lg:col-span-7 grid grid-cols-2 gap-4">
             <Reveal delay={100}>
               <div className="aspect-[3/4] overflow-hidden rounded-3xl ring-soft shadow-soft">
-                <img src={reception} alt="Lumina Dental reception area" loading="lazy" className="h-full w-full object-cover" />
+                <img src={reception} alt="Laxmi Dental reception area" loading="lazy" className="h-full w-full object-cover" />
               </div>
             </Reveal>
             <Reveal delay={200}>
               <div className="aspect-[3/4] overflow-hidden rounded-3xl ring-soft shadow-soft mt-12">
-                <img src={room} alt="Lumina Dental treatment room" loading="lazy" className="h-full w-full object-cover" />
+                <img src={room} alt="Laxmi Dental treatment room" loading="lazy" className="h-full w-full object-cover" />
               </div>
             </Reveal>
           </div>
